@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ApolloClient from 'apollo-boost'
+import { ApolloProvider } from 'react-apollo'
+import Menu from './components/menu'
+import { RandomDrink } from './components/randomDrink'
+
+const client = new ApolloClient({
+	uri: 'https://mixy-apollo-server.herokuapp.com/',
+})
+
+//TODO:
+// 1. Query ingredients - X
+// 2. Create full drink page -X
+// 3. Media Queries for responsive design -
+// 4. Cosmetic design of website -
+// 5. Ship -
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<ApolloProvider client={client}>
+			<div className='App'>
+				<Menu />
+				{RandomDrink()}
+			</div>
+		</ApolloProvider>
+	)
 }
 
-export default App;
+export default App
