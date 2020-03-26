@@ -29,8 +29,9 @@ export const useStyles = makeStyles((theme) => ({
 		margin: '0 auto',
 		fontFamily: 'Permanent Marker',
 		backgroundImage: `url(${PaintStroke})`,
-		backgroundSize: 'cover',
+		backgroundSize: 'contain',
 		backgroundPosition: 'center',
+		backgroundRepeat: 'no-repeat',
 	},
 	itemTitle: {
 		fontSize: '100%',
@@ -46,19 +47,19 @@ export const useStyles = makeStyles((theme) => ({
 		color: 'white',
 		fontSize: '1.5em',
 		padding: '.5em',
-		width: '90%',
+		maxWidth: '70%',
 		margin: '0 auto',
 	},
 	img: {
 		justifyContent: 'center',
 		width: '100%',
 		margin: '0 auto',
-		boxShadow: '0 0 1em black',
+		boxShadow: '0 0 1em #484848',
 	},
 	ingredients: {
 		justifyContent: 'space-around',
 		marginBottom: '1em',
-		width: '100%',
+		maxWidth: '70%',
 	},
 	item: {
 		padding: '1em',
