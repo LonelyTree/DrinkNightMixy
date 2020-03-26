@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/DrinkNightMixy/static/js/main.b05f3334.chunk.js",
-    "main.js.map": "/DrinkNightMixy/static/js/main.b05f3334.chunk.js.map",
+    "main.js": "/DrinkNightMixy/static/js/main.739136d0.chunk.js",
+    "main.js.map": "/DrinkNightMixy/static/js/main.739136d0.chunk.js.map",
     "runtime-main.js": "/DrinkNightMixy/static/js/runtime-main.3be5f09b.js",
     "runtime-main.js.map": "/DrinkNightMixy/static/js/runtime-main.3be5f09b.js.map",
     "static/js/2.1f48c759.chunk.js": "/DrinkNightMixy/static/js/2.1f48c759.chunk.js",
     "static/js/2.1f48c759.chunk.js.map": "/DrinkNightMixy/static/js/2.1f48c759.chunk.js.map",
     "index.html": "/DrinkNightMixy/index.html",
-    "precache-manifest.ae36cc491b383d143a47e2a0cedde297.js": "/DrinkNightMixy/precache-manifest.ae36cc491b383d143a47e2a0cedde297.js",
+    "precache-manifest.2b566ef5b40300b30ed8e46bd5bfd7fc.js": "/DrinkNightMixy/precache-manifest.2b566ef5b40300b30ed8e46bd5bfd7fc.js",
     "service-worker.js": "/DrinkNightMixy/service-worker.js",
     "static/js/2.1f48c759.chunk.js.LICENSE.txt": "/DrinkNightMixy/static/js/2.1f48c759.chunk.js.LICENSE.txt",
     "static/media/paintStroke.png": "/DrinkNightMixy/static/media/paintStroke.145b0f23.png"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.3be5f09b.js",
     "static/js/2.1f48c759.chunk.js",
-    "static/js/main.b05f3334.chunk.js"
+    "static/js/main.739136d0.chunk.js"
   ]
 }

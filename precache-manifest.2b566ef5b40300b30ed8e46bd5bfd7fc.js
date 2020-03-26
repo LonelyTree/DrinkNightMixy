@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "699d6c834c3b9897c5a9234689406c97",
+    "revision": "9aa80c1b4b063a3e71f3258b5518ebae",
     "url": "/DrinkNightMixy/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DrinkNightMixy/static/js/2.1f48c759.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f29c4322849893a46c50",
-    "url": "/DrinkNightMixy/static/js/main.b05f3334.chunk.js"
+    "revision": "df1519343b7b46266510",
+    "url": "/DrinkNightMixy/static/js/main.739136d0.chunk.js"
   },
   {
     "revision": "66bc487f92c489d8958c",
