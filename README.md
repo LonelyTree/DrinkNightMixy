@@ -1,6 +1,6 @@
-#*DRINK NIGHT MIXY*
+<h1>PARTY NIGHT MIXY</h1>
 
-#####*A little party app that lets you and your friends try out new fun and random drinks!*
+<p>A little party app that lets you and your friends try out new fun and random drinks!</p>
 <img src='./src/img/readmeImage.png' alt="README SOURCE IMAGE">
 
-#####*Hit the `random drink` button for a new cocktail and enjoy!*
+<p>Hit the "random drink" button for a new cocktail and enjoy!</p>
