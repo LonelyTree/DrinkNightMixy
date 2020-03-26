@@ -6,7 +6,18 @@ export const useStyles = makeStyles((theme) => ({
 		justifyContent: 'center',
 		alignItems: 'center',
 		width: '100%',
+		background: 'black',
+		paddingBottom: '2em',
+		margin: '0 auto',
+		boxShadow: '0 0 10px black',
 	},
+	title: {
+		fontFamily: 'Permanent Marker',
+		color: '#ff385b',
+		fontSize: '3em',
+		textAlign: 'center',
+	},
+
 	paper: {
 		padding: theme.spacing(1),
 		textAlign: 'center',
@@ -14,5 +25,10 @@ export const useStyles = makeStyles((theme) => ({
 	},
 	nav: {
 		justifyContent: 'space-around',
+		borderRadius: '2em',
+		padding: '1em',
+	},
+	icon: {
+		color: 'black',
 	},
 }))
